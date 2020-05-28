@@ -1,13 +1,532 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Madden NFL 18 Online Generator</title>
+	<meta name="description" content="New Madden NFL 18 Hack is finally here and its working on both iOS and Android platforms. This generator is free and its really easy to use!">
+	<meta name="author" content="author">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="icon" type="image/ico" href="img/GameBag-favico.png" />
+	<!-- Open Graph Social Meta Tags-->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://example.com/" /> <!-- Your Website URL -->
+	<meta property="og:image" content="http://example.com/image.jpg" />	<!-- Absolute Path to the Image which will display, when your website is shared on social networks -->
+    <!-- Google Fonts -->
+	<link href="fonts.googleapis.com/css8a7c8a7c.html?family=Open+Sans:300,400,700" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />  
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/sweetalert2.min.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/fancySelect.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/custom-css.css"/>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+	<style type="text/css">
+		.verify { display:block;width:219px;height:111px;background:url(img/verify.html) no-repeat;margin:0px auto; }
+	</style>
+
+</head>
+<body>
+<div id="loader-wrapper">
+		<div id="loader"></div> 
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div> 
+	</div>	
+	<header>
+		<div class="branding-wrapper">
+			<img class="logo-img" src="img/logo.png" />
+		</div>
+	</header>
+	<div class="main-wrapper">		
+		<div class="row">			
+			<div class="generator-wrapper col-sm-8">		
+				<div class="generator-wrapper-inner panel-box-wrapper same-height-top-panel">		
+					<div class="panel-overlay"></div>
+					<div id="account-information-wrapper" class="account-information-wrapper">						
+						<div class="account-information-inner-wrapper">
+							<div id="close-account-information-wrapper" class="close-account-information-wrapper"><i class="fa fa-times" aria-hidden="true"></i></div>
+							<h4>ព​ត៌​មាន​គណនី</h4>
+							<div class="account-info-fields-wrapper">
+								<div class="account-username-wrapper">
+									<label class="generator-input-label" for="account-username">បញ្ចូលឈ្មោះអ្នកប្រើរបស់អ្នក</label>
+									<input type="text" id="account-username" class="generator-input account-input" placeholder="ឈ្មោះអ្នកប្រើរបស់អ្នក ..." />
+								</div>	
+								<div class="account-platform-wrapper">
+									<label class="generator-input-label" for="account-platform">ជ្រើសរើសឧបករណ៍របស់អ្នក៖</label>
+									<select id="account-platform" class="generator-input f-s">																							
+										<option value="ជ្រើសរើស">ជ្រើសរើស</option>						
+										<option value="Xbox one">Xbox one</option>
+										<option value="Android">Android</option>
+										<option value="iOS">iOS</option>
+									</select>
+								</div>		
+							</div>
+							<div class="generator-button-wrapper">
+								<div class="generator-button-inner-wrapper second-step-inner-wrapper">
+									<div class="generator-button-dot b-t-r"></div>
+									<div class="generator-button-dot b-t-l"></div>
+									<div class="generator-button-dot b-b-r"></div>
+									<div class="generator-button-dot b-b-l"></div>
+									<div class="generator-button-overlay"></div>
+									<a id="second-step-button" class="generator-button second-step-button"><span class="generator-button-text">បន្ត</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel-content">
+						<div class="row">
+							<div class="col-md-12">	
+								<div class="generator-header">
+									<h1>Borin Generator</h1>
+								</div>		
+							</div>
+						</div>						
+						<div id="resources-select-wrapper" class="resources-select-wrapper">
+							<div class="single-resource-wrapper row">
+								<div class="futcoins-select-wrapper">
+									<div class="col-xs-1 no-padding-right responsive-button-wrapper">
+										<div class="value-button-wrapper">	
+											<div id="decrease-futcoins" class="decrease-button value-button">-</div>
+										</div>										
+									</div>
+									<div class="col-xs-10 responsive-value-wrapper">
+										<h3 class="resources-title">បង្កើតCoins</h3>
+										<div id="futcoins-amount-wrapper" class="selected-amount-wrapper">
+											<img class="resource-img" src="img/tublive.com-gold.png" />
+											<div id="futcoins-amount">200000</div>
+											<div class="max-amount max-amount-coins">MAX AMOUNT</div>
+										</div>	
+										<div id="progressBar" class="futcoins-loadbar"><div></div></div>
+									</div>
+									<div class="col-xs-1 no-padding-left responsive-button-wrapper">
+										<div class="value-button-wrapper">	
+											<div id="increase-futcoins" class="increase-button value-button">+</div>
+										</div>	
+									</div>	
+								</div>				
+							</div>
+							<div class="single-resource-wrapper row">
+								<div class="futpoints-select-wrapper">
+									<div class="col-xs-1 responsive-button-wrapper no-padding-right">
+										<div class="value-button-wrapper">	
+											<div id="decrease-futpoints" class="decrease-button value-button">-</div>	
+										</div>
+									</div>
+									<div class="col-xs-10 responsive-value-wrapper">
+										<h3 class="resources-title">បង្កើតPoints</h3>
+										<div id="futpoints-amount-wrapper" class="selected-amount-wrapper">
+											<img class="resource-img" src="img/tublive.com-diamonds.png" />
+											<div id="futpoints-amount">20000</div> 
+											<div class="max-amount max-amount-points">MAX AMOUNT</div>
+										</div>	
+										<div id="progressBarPoints" class="futpoints-loadbar"><div></div></div>
+									</div>
+									<div class="col-xs-1 no-padding-left responsive-button-wrapper">	
+										<div class="value-button-wrapper">	
+											<div id="increase-futpoints" class="increase-button value-button">+</div>
+										</div>
+									</div>	
+								</div>				
+							</div>
+							<div class="generator-button-wrapper generator-start-wrapper">
+								<div class="generator-button-inner-wrapper">
+									<div class="generator-button-dot b-t-r"></div>
+									<div class="generator-button-dot b-t-l"></div>
+									<div class="generator-button-dot b-b-r"></div>
+									<div class="generator-button-dot b-b-l"></div>
+									<div class="generator-button-overlay"></div>
+									<a id="first-step-button" class="generator-button first-step-button"><span class="generator-button-text">ចាប់ផ្ដើម</span></a>
+								</div>
+							</div>
+						</div>
+						<div id="processing-wrapper" class="processing-wrapper">
+							<div class="main-console-wrapper">
+								<div class="starting-loading-wrapper">
+									<i class="icon-refresh rotating"></i>
+									<span class="starting-loading-title">Processing</span>
+								</div>
+								<div id="human-verification" class="human-verification-wrapper"> <!-- Human Verification Main Wrapper -->
+									<div class="human-verification-inner-wrapper">
+										<h2>Human Verification</h2>
+										<p>We detected some unusual activity from your IP address. Before we finalize the Coins & Points transaction, please verify that you're human. </p>
+										
+										<div class="generator-button-wrapper generator-start-wrapper">
+											<div class="generator-button-inner-wrapper">
+												<div class="generator-button-dot b-t-r"></div>
+												<div class="generator-button-dot b-t-l"></div>
+												<div class="generator-button-dot b-b-r"></div>
+												<div class="generator-button-dot b-b-l"></div>
+												<div class="generator-button-overlay"></div>
+												<a id="verify-button" href="YOUR_LINK_LOCKER_HERE" target="_blank" class="generator-button first-step-button"><span class="generator-button-text">Verify</span></a>
+											</div>
+										</div>
+									
+										<div id="fountainG">
+											<div id="fountainG_1" class="fountainG"></div>
+											<div id="fountainG_2" class="fountainG"></div>
+											<div id="fountainG_3" class="fountainG"></div>
+											<div id="fountainG_4" class="fountainG"></div>
+											<div id="fountainG_5" class="fountainG"></div>
+											<div id="fountainG_6" class="fountainG"></div>
+											<div id="fountainG_7" class="fountainG"></div>
+											<div id="fountainG_8" class="fountainG"></div>
+										</div>
+
+
+									</div>
+								</div>
+								<div class="row first-console-row">
+									<div class="col-sm-6">
+										<div class="console-username-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-username" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Account Username:</h5>
+											<span id="console-username-value" class="console-item-value"><i class="icon-refresh rotating"></i></span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="console-platform-wrapper console-item-wrapper">	
+											<div id="console-success-confirmation-platform" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Selected Device:</h5>
+											<span id="console-platform-value" class="console-item-value"><i class="icon-refresh rotating"></i></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="console-futcoins-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-futcoins" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Madden NFL 18 Coins:</h5>
+											<div class="console-futcoins-value-inner-wrapper">
+												<img class="console-resource-img" src="img/tublive.com-gold.png" />
+												<span id="console-futcoins-value" class="console-item-value console-resource-value">0</span>
+											</div>	
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="console-futpoints-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-futpoints" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Madden NFL 18 Points:</h5>
+											<div class="console-futpoints-value-inner-wrapper">
+												<img class="console-resource-img" src="img/tublive.com-diamonds.png" />
+												<span id="console-futpoints-value" class="console-item-value console-resource-value">0</span>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="messages-console-wrapper">
+								<div class="console-message"></div>								
+							</div>
+							<div class="loadbar-console-wrapper">
+								<div id="progressBarConsole" class="console-loadbar"><div></div></div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</div>	
+	<div id="loader-wrapper">
+		<div id="loader"></div> 
+		<div class="loader-section section-left"></div>
+		<div class="centered"><img src="img/GameBagLogo.png" alt="GameBag.org Logo" align="middle"></div>
+		<div class="loader-section section-right"></div> 
+	</div>	
+	<div class="main-wrapper">		
+		<div class="row">			
+			<div class="recent-activity-wrapper col-sm-4">
+				<div class="recent-activity-inner panel-box-wrapper same-height-top-panel">	
+					<div class="panel-overlay"></div>
+					<div class="panel-content">
+						<div class="panel-title">
+							<h2>Recent Activity</h2>
+						</div>	
+						<div id="recent-activity" class="recent-activity">
+						
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>		
+		<div class="row bottom-row">
+			<div class="comments-wrapper col-md-8">
+				<div class="comments-wrapper-inner panel-box-wrapper same-height-bottom-panel">		
+					<div class="panel-overlay"></div>
+					<div class="panel-content">
+						<div class="panel-title">
+						<h2>បញ្ចេញមតិយោបល់</h2>
+						</div>	
+						<form action="#" class="comments-section-form">
+							<fieldset>
+								<section>
+									<label class="input comment-user-img-wrapp"><i class="icon-profile-male comment-user-img"></i></label>
+									<div class="comment-wrapper">
+										<label class="input">
+											<span class="comment-username" id="username1"></span><span class="timePosted"id="timePosted1"></span>
+											<span class="comments"><p>How many games do i need to install to pass the human verification???</p></span>														
+										</label>
+									</div>
+									<label class="input"></label>
+								</section>
+							</fieldset>
+							<fieldset>
+								<section>
+									<label class="input comment-user-img-wrapp"><i class="icon-profile-male comment-user-img"></i></label>
+									<div class="comment-wrapper">
+										<label class="input">
+											<span class="comment-username" id="username2"></span><span class="timePosted" id="timePosted2"></span>
+											<span class="comments"><p> I got all the coins and points :D I cant thank you enough! <3</p></span>														
+										</label>
+									</div>
+									<label class="input"></label>
+								</section>
+							</fieldset>
+							<fieldset>
+								<section>
+									<label class="input comment-user-img-wrapp"><i class="icon-profile-male comment-user-img"></i></label>
+									<div class="comment-wrapper">
+										<label class="input">
+											<span class="comment-username" id="username3"></span><span class="timePosted" id="timePosted3"></span>
+											<span class="comments"><p> wow this website is giving some real stuff .. =D</p></span>														
+										</label>
+									</div>
+									<label class="input"></label>
+								</section>
+							</fieldset>			
+							<div class="add-new-comment-wrapp">
+								<h4>បន្ថែមមតិយោបល់ថ្មី</h4>
+								<section>
+									<label class="input" id="commentUsernameLabel">						
+										<input id="commentUsername" placeholder="Username" type="text">
+									</label>
+								</section>
+								<section>
+									<label class="textarea" id="commentCommentLabel">						
+										<textarea id="commentComment" rows="3"></textarea>
+									</label>
+									<div class="post-new-comment-button-wrapp">
+										<div class="post-new-comment-button-inner-wrapp">
+									<a class="button-style-1 small" href="javascript:void(0)">ប្រកាស</a>
+									</a>
+										</div>
+									</div>
+									<div class="shake-wrapper-2"><p class="nocommentsfornoobs"><i class="fa fa-info-circle" aria-hidden="true"></i> ដើម្បីផ្សព្វផ្សាយសារឥតបានការការផ្តល់យោបល់ត្រូវបានអនុញ្ញាតសម្រាប់តែអ្នកប្រើប្រាស់ណាដែលបានប្រើម៉ាស៊ីនភ្លើងរបស់យើងប៉ុណ្ណោះ.</p></div>
+								</section>
+							</div>
+						</form>			
+					</div>
+				</div>
+			</div>
+			<div class="chat-wrapper col-md-4">
+				<div class="chat-wrapper-inner panel-box-wrapper same-height-bottom-panel">	
+					<div class="panel-overlay"></div>	
+					<div class="panel-content">
+						<div class="panel-title">
+							<h2>ជជែកផ្ទាល់</h2>
+						</div>	
+						<div class="chat-inner-wrapper">
+							<div class="livechatContainerTop" style=" height: 0px!important; border-top-left-radius: 4px; border-top-right-radius: 4px;">
+								<span class="yellow_text" style=" font-size: 16px; position: relative; font-weight: 100; bottom: 10px;">
+									បង្កើត​ជជែក​កំសាន្ត (<span id="online2"></span>)</span>
+							</div>
+							<div class="livechatContainerCenter">
+								<div id="livechatContainerChat" style="text-shadow: none;">
+									<div class="livechatOverlaySmall" style=" display:none; z-index: 3; position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.34);">
+									</div>
+									<div id="livechatContainerChatUserName">
+										<div class="livechatContainerTop">
+											<span class="chat-input-label">Enter your Chat Username</span>
+										</div>
+										<input id="livechatInputChatUserName" type="text">
+										<div class="blue_button" id="livechatButtonChatUserName">
+											<div class="blue_button_text noselect">
+												Save
+											</div>
+										</div>
+									</div>
+									<div id="livechatContainerChatContent">
+										<div id="livechatChatContent" style="text-shadow: none;"></div>
+									</div>
+								</div>
+								<div id="livechatContainerChatControls" style="text-shadow: none;">
+									<div style="margin-bottom: 5px; text-shadow: none;">
+										<input id="livechatInputChat" placeholder="ផ្ញើ​សារ​" type="text">
+										<div class="live-chat-button-wrapper">
+											<div id="livechatButtonChat">
+												<div class="blue_button_text noselect">
+													Send
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<footer>
+		<div class="policy-links">
+			<a class="popup-contact popup-link" href="#contact-us">ទំនាក់ទំនង</a><span class="pp-sep"> |</span>
+			<a class="popup-tos popup-link" href="#terms-of-service">ល័ក្ខខ័ណ្ឌនៃសេវាកម្ម</a><span class="pp-sep"> |</span>
+			<a class="popup-pp popup-link" href="#privacy-policy">គោលការណ៍​ភាព​ឯកជន</a>
+		</div>
+		<p>ប្រសិនបើអ្នកមានសំណួរអំពីគោលការណ៍នេះសូមទាក់ទងមកយើងខ្ញុំ.ឮអាចទាក់ទងបានតាមរយះលេខទូរស័ព្ទ</p>
+		<p>អាចទាក់ទងបានតាមរយះលេខទូរស័ព្ទ 089687225 | FACEBOOK : BoriN</p>
+	</footer>
+	<div id="terms-of-service" class="tos-popup-wrapper popup-wrapper mfp-hide">
+		<h1>លក្ខខណ្ឌ​នៃ​សេវាកម្ម</h1>
+		
+		<p>ល័ក្ខខ័ណ្ឌនៃសេវាកម្មទាំងនេះ (“ ល័ក្ខខ័ណ្ឌ”“ កិច្ចព្រមព្រៀង”) គឺជាកិច្ចព្រមព្រៀងរវាងប្រតិបត្តិករគេហទំព័រ MyWebsite (“ ប្រតិបត្តិករគេហទំព័រ”“ យើង”“ យើង” ឬ“ របស់យើង”) និងអ្នក (“ អ្នកប្រើប្រាស់”“ អ្នក” ឬ "របស់អ្នក") ។ កិច្ចព្រមព្រៀងនេះចែងអំពីល័ក្ខខ័ណ្ឌទូទៅនៃការប្រើប្រាស់គេហទំព័រ http://www.mywebsite.com និងផលិតផលឬសេវាកម្មណាមួយរបស់ខ្លួន (ជារួម“ គេហទំព័រ” ឬ“ សេវាកម្ម”).</p>
+		
+		<h2>តម្រូវការអាយុ</h2>
+		
+		<p>អ្នកត្រូវមានអាយុយ៉ាងតិច ១៨ ឆ្នាំដើម្បីប្រើប្រាស់គេហទំព័រនេះ។ តាមរយៈការប្រើប្រាស់គេហទំព័រនេះនិងយល់ព្រមលើកិច្ចព្រមព្រៀងនេះអ្នកធានានិងបង្ហាញថាអ្នកមានអាយុយ៉ាងតិច ១៨ ឆ្នាំ.</p>
+		
+		<h2>ការបម្រុងទុក</h2>
+		
+		<p>យើងមិនទទួលខុសត្រូវចំពោះខ្លឹមសារដែលមាននៅលើគេហទំព័រទេ។ ក្នុងករណីណាក៏ដោយយើងមិនទទួលខុសត្រូវចំពោះការបាត់បង់ខ្លឹមសារណាមួយឡើយ។ វាជាទំនួលខុសត្រូវតែមួយគត់របស់អ្នកក្នុងការរក្សាការបម្រុងទុកសមស្របនៃមាតិការបស់អ្នក។ ទោះបីជាមានចំណុចដូចខាងលើនេះក្នុងកាលៈទេសៈនិងកាលៈទេសៈខ្លះក៏ដោយដោយគ្មានកាតព្វកិច្ចយើងអាចស្តារទិន្នន័យខ្លះឬទាំងអស់របស់អ្នកដែលត្រូវបានលុបចោលតាមកាលបរិច្ឆេទនិងពេលវេលាជាក់លាក់មួយនៅពេលដែលយើងអាចបម្រុងទុកទិន្នន័យសម្រាប់របស់យើងផ្ទាល់។ គោលបំណង។ យើងមិនមានការធានាថាទិន្នន័យដែលអ្នកត្រូវការនឹងអាចមាននោះទេ។ </p>.</p>
+		
+		<h2>បណ្តាញភ្ជាប់ទៅគេហទំព័រផ្សេងទៀត</h2>
+		
+		<p>ទោះបីគេហទំព័រនេះអាចភ្ជាប់ទៅគេហទំព័រផ្សេងទៀតក៏ដោយយើងមិនទាក់ទងដោយផ្ទាល់ឬដោយប្រយោលដោយមិនបញ្ជាក់ពីការយល់ព្រមសមាគមការឧបត្ថម្ភការយល់ព្រមការចូលរួមឬការភ្ជាប់ទំនាក់ទំនងជាមួយគេហទំព័រណាមួយឡើយលើកលែងតែមានការបញ្ជាក់ជាក់លាក់នៅទីនេះ។ យើងមិនទទួលខុសត្រូវចំពោះការពិនិត្យឬវាយតម្លៃហើយយើងមិនធានាចំពោះការផ្តល់ជូនអាជីវកម្មឬបុគ្គលណាមួយឬខ្លឹមសារនៃគេហទំព័ររបស់ពួកគេឡើយ។ យើងមិនទទួលខុសត្រូវរាល់ការទទួលខុសត្រូវចំពោះសកម្មភាពផលិតផលសេវាកម្មនិងខ្លឹមសាររបស់ភាគីទីបីណាមួយឡើយ។ អ្នកគួរតែពិនិត្យឡើងវិញនូវសេចក្តីថ្លែងការណ៍ច្បាប់និងល័ក្ខខ័ណ្ឌផ្សេងៗក្នុងការប្រើប្រាស់គេហទំព័រណាដែលអ្នកចូលមើលតាមរយៈគេហទំព័រនេះ។ ការភ្ជាប់របស់អ្នកទៅទំព័រក្រៅគេហទំព័រឬគេហទំព័រផ្សេងទៀតគឺជាហានិភ័យរបស់អ្នក.</p>
+		
+		<h2>ការផ្សាយពាណិជ្ជកម្ម</h2>
+		
+		<p>ក្នុងអំឡុងពេលនៃការប្រើប្រាស់គេហទំព័រអ្នកអាចចូលឆ្លើយឆ្លងជាមួយឬចូលរួមក្នុងការផ្សព្វផ្សាយរបស់អ្នកផ្សាយពាណិជ្ជកម្មឬអ្នកឧបត្ថម្ភដែលបង្ហាញទំនិញឬសេវាកម្មរបស់ពួកគេតាមរយៈគេហទំព័រ។ រាល់សកម្មភាពបែបនេះនិងល័ក្ខខ័ណ្ឌលក្ខខណ្ឌការធានាឬការតំណាងនានាដែលពាក់ព័ន្ធនឹងសកម្មភាពបែបនេះគឺមានតែរវាងអ្នកនិងភាគីទីបីដែលអាចអនុវត្តបាន។ យើងមិនមានទំនួលខុសត្រូវកាតព្វកិច្ចឬការទទួលខុសត្រូវចំពោះការឆ្លើយឆ្លងការទិញឬការផ្សព្វផ្សាយរវាងអ្នកនិងភាគីទីបីណាមួយឡើយ.</p>
+		
+		<h2>ការប្រើប្រាស់ហាមឃាត់</h2>
+		
+		<p>បន្ថែមលើល័ក្ខខ័ណ្ឌផ្សេងទៀតដែលមានចែងនៅក្នុងកិច្ចព្រមព្រៀងអ្នកត្រូវបានហាមឃាត់មិនឱ្យប្រើប្រាស់គេហទំព័រឬមាតិការបស់វា៖ (ក) សម្រាប់គោលបំណងខុសច្បាប់ណាមួយ។ (ខ) សុំឱ្យអ្នកដទៃធ្វើឬចូលរួមក្នុងសកម្មភាពខុសច្បាប់ណាមួយ។ (គ) រំលោភលើបទប្បញ្ញត្តិអន្តរជាតិសហព័ន្ធសហព័ន្ធខេត្តឬរដ្ឋបទប្បញ្ញត្តិច្បាប់ឬបទបញ្ជាក្នុងតំបន់។ (ឃ) រំលោភឬរំលោភលើកម្មសិទ្ធិបញ្ញារបស់យើងឬសិទ្ធិកម្មសិទ្ធិបញ្ញារបស់អ្នកដទៃ។ (ង) បៀតបៀនការរំលោភបំពានការជេរប្រមាថការបង្កាច់បង្ខូចការបង្កាច់បង្ខូចការជេរប្រមាថការបំភិតបំភ័យឬការរើសអើងផ្អែកលើភេទនិន្នាការភេទសាសនាជនជាតិភាគតិចពូជសាសន៍សញ្ជាតិដើមឬពិការភាព។ (ច) ដើម្បីបញ្ជូនព័ត៌មានមិនពិតឬបំភាន់។ (ឆ) ផ្ទុកឡើងឬបញ្ជូនមេរោគឬប្រភេទកូដព្យាបាទផ្សេងទៀតដែលនឹងឬអាចត្រូវបានប្រើតាមមធ្យោបាយណាមួយដែលនឹងជះឥទ្ធិពលដល់មុខងារឬប្រតិបត្តិការរបស់សេវាកម្មឬគេហទំព័រដែលពាក់ព័ន្ធគេហទំព័រផ្សេងទៀតឬអ៊ីនធឺណិត។ (ជ) ដើម្បីប្រមូលឬតាមដានព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកដទៃ។ (i) ចំពោះសារឥតបានការភីស្ហឹនថ្នាំភូតកុហកសត្វពីងពាងលូនឬកោស។ (ច) សម្រាប់គោលបំណងអាសអាភាសឬអសីលធម៌ ឬ (គ) ដើម្បីជ្រៀតជ្រែកឬចៀសវៀងពីលក្ខណៈពិសេសសុវត្ថិភាពរបស់សេវាកម្មឬគេហទំព័រដែលពាក់ព័ន្ធគេហទំព័រផ្សេងទៀតឬអ៊ីនធឺណិត។ យើងរក្សាសិទ្ធិក្នុងការបញ្ឈប់ការប្រើប្រាស់សេវាកម្មរបស់អ្នកឬគេហទំព័រដែលពាក់ព័ន្ធសម្រាប់ការរំលោភការប្រើប្រាស់ណាមួយដែលត្រូវហាមឃាត់.</p>
+		
+		<h2>ដែន​កំណត់​នៃ​ការទទួលខុសត្រូវ</h2>
+		
+		<p>ក្នុងកំរិតពេញលេញដែលត្រូវបានអនុញ្ញាតិដោយច្បាប់ដែលអាចអនុវត្តបានក្នុងករណីដែលមិនមានប្រតិបត្តិករវេបសាយសាខាភ្នាក់ងារមន្រ្តីនាយកនិយោជិកភ្នាក់ងារអ្នកផ្គត់ផ្គង់ឬអ្នកផ្តល់អាជ្ញាប័ណ្ណត្រូវទទួលខុសត្រូវចំពោះបុគ្គលណាម្នាក់សម្រាប់ (ក)៖ ដោយប្រយោលណាមួយដោយចៃដន្យពិសេសការដាក់ទោស ឬការខូចខាតដែលមានផលប៉ះពាល់ (រាប់បញ្ចូលទាំងការមិនកំណត់កំណត់ការខូចខាតសម្រាប់ប្រាក់ចំណេញដែលបានបាត់បង់ប្រាក់ចំណូលការលក់សុឆន្ទៈការប្រើប្រាស់ឬមាតិកាផលប៉ះពាល់លើអាជីវកម្មការរំខានអាជីវកម្មការបាត់បង់ប្រាក់សន្សំដែលបានរំពឹងទុកការបាត់បង់ឱកាសអាជីវកម្ម) ទោះយ៉ាងណាក៏ដោយបណ្តាលមកពីទ្រឹស្តីនៃការទទួលខុសត្រូវ។ រាប់បញ្ចូលទាំងការមិនធ្វើកិច្ចសន្យាកិច្ចសន្យាការធ្វើទារុណកម្មការធានាការរំលោភលើកាតព្វកិច្ចតាមច្បាប់ការធ្វេសប្រហែសឬបើមិនដូច្នេះទេទោះបីជាប្រតិបត្តិករគេហទំព័រត្រូវបានណែនាំអំពីលទ្ធភាពនៃការខូចខាតឬអាចមានការខូចខាតជាមុនក៏ដោយ។ ក្នុងកំរិតអតិបរមាដែលត្រូវបានអនុញ្ញាតដោយច្បាប់ដែលអាចអនុវត្តបានការទទួលខុសត្រូវរួមរបស់ប្រតិបត្តិករគេហទំព័រនិងសាខារបស់ខ្លួនភ្នាក់ងារនិយោជិកភ្នាក់ងារអ្នកផ្គត់ផ្គង់និងអ្នកមានអាជ្ញាប័ណ្ណពាក់ព័ន្ធនឹងសេវាកម្មនឹងត្រូវបានកំណត់ក្នុងចំនួនទឹកប្រាក់លើសពីមួយដុល្លារឬចំនួនទឹកប្រាក់ដែលបានបង់ជាសាច់ប្រាក់សុទ្ធ។ ដោយអ្នកទៅកាន់ប្រតិបត្តិករគេហទំព័រក្នុងរយៈពេលមួយខែមុនព្រឹត្តិការណ៍ដំបូងឬការកើតឡើងដែលផ្តល់នូវការទទួលខុសត្រូវបែបនេះ។ ដែនកំណត់និងការលើកលែងក៏អនុវត្តផងដែរប្រសិនបើសំណងនេះមិនផ្តល់សំណងដល់អ្នកទាំងស្រុងចំពោះការបាត់បង់ឬបរាជ័យនៃគោលបំណងសំខាន់របស់វា.</p>
+		
+		<h2>ការមិនសងប្រាក់</h2>
+		
+		<p>អ្នកយល់ព្រមសងជំងឺចិត្តនិងកាន់ប្រតិបត្តិករគេហទំព័រនិងសាខារបស់ខ្លួននាយកនាយទាហានបុគ្គលិកនិងភ្នាក់ងារដែលគ្មានគ្រោះថ្នាក់ពីការខាតបង់ការខូចខាតឬថ្លៃដើមរួមទាំងថ្លៃមេធាវីសមរម្យដែលកើតឡើងទាក់ទងនឹងឬកើតឡើងពីភាគីទីបី។ ការចោទប្រកាន់ការអះអាងសកម្មភាពជម្លោះឬការទាមទារដែលបានអះអាងប្រឆាំងនឹងបញ្ហាណាមួយដែលបណ្តាលមកពីឬទាក់ទងនឹងខ្លឹមសារការប្រើប្រាស់វេបសាយឬសេវាកម្មរបស់អ្នកឬការប្រព្រឹត្តិមិនត្រឹមត្រូវណាមួយនៅលើផ្នែករបស់អ្នក។.</p>
+		
+		<h2>ភាពធ្ងន់ធ្ងរ</h2>
+		
+		<p>សិទ្ធិនិងការរឹតត្បិតទាំងអស់ដែលមាននៅក្នុងកិច្ចព្រមព្រៀងនេះអាចត្រូវបានអនុវត្តនិងអាចអនុវត្តបាននិងអនុវត្តបានតែក្នុងវិសាលភាពដែលពួកគេមិនបានរំលោភច្បាប់ដែលមានហើយត្រូវបានកំណត់ឱ្យមានកម្រិតដែលចាំបាច់ដូច្នេះពួកគេនឹងមិនបង្ហាញកិច្ចព្រមព្រៀងនេះខុសច្បាប់និងគ្មានសុពលភាព។ ឬមិនអាចប្រតិបត្តិបាន។ ប្រសិនបើបទប្បញ្ញត្តិឬផ្នែកណាមួយនៃបទប្បញ្ញត្តិនៃកិច្ចព្រមព្រៀងនេះត្រូវបានចាត់ទុកថាខុសច្បាប់មិនមានសុពលភាពឬមិនអាចអនុវត្តបានដោយតុលាការនៃយុត្តាធិការមានសមត្ថកិច្ចវាជាចេតនារបស់ភាគីដែលបទប្បញ្ញត្តិឬផ្នែកដែលនៅសល់ត្រូវបង្កើតជាកិច្ចព្រមព្រៀងរបស់ពួកគេទាក់ទងនឹង ខ្លឹមសារនៃប្រធានបទនេះនិងបទប្បញ្ញត្តិឬផ្នែកដែលនៅសល់ទាំងអស់នោះនឹងនៅតែមានប្រសិទ្ធិភាពពេញលេញ.</p>
+		
+		<h2>ដំណោះស្រាយវិវាទ</h2>
+		
+		<p>ការបង្កើតការបកស្រាយនិងការអនុវត្តនៃកិច្ចព្រមព្រៀងនេះនិងជម្លោះណាមួយដែលកើតចេញពីកិច្ចព្រមព្រៀងនេះនឹងត្រូវគ្រប់គ្រងដោយច្បាប់ដែលមានសារៈសំខាន់និងនីតិវិធីនៃប៊ែនប្រទេសស្វីសដោយមិនគិតពីច្បាប់ស្តីពីជម្លោះឬជម្រើសនៃច្បាប់ហើយបើអាចអនុវត្តបានច្បាប់នៃ ប្រទេស​ស្វីស។ យុត្តាធិការផ្តាច់មុខនិងទីកន្លែងសម្រាប់សកម្មភាពទាក់ទងនឹងប្រធានបទនេះគឺតុលាការរដ្ឋនិងសហព័ន្ធដែលមានទីតាំងនៅទីក្រុងប៊ែនប្រទេសស្វីសហើយអ្នកត្រូវបញ្ជូនទៅយុត្តាធិការផ្ទាល់ខ្លួនរបស់តុលាការបែបនេះ។ អ្នកអាចលះបង់សិទ្ធិក្នុងការជំនុំជម្រះក្តីលើរឿងក្តីណាមួយដែលកើតឡើងឬពាក់ព័ន្ធនឹងកិច្ចព្រមព្រៀងនេះ។ អនុសញ្ញារបស់អង្គការសហប្រជាជាតិស្តីពីកិច្ចសន្យាសម្រាប់ការលក់ទំនិញអន្តរជាតិមិនអនុវត្តចំពោះកិច្ចព្រមព្រៀងនេះទេ.</p>
+		
+		<h2>ការផ្លាស់ប្តូរនិងការកែប្រែ</h2>
+		
+		<p>យើងរក្សាសិទ្ធិក្នុងការកែប្រែកិច្ចព្រមព្រៀងនេះឬគោលនយោបាយរបស់វាទាក់ទងទៅនឹងគេហទំព័រឬសេវាកម្មនៅពេលណាមួយដែលមានប្រសិទ្ធភាពនៅពេលប្រកាសសេចក្តីព្រាងនៃកិច្ចព្រមព្រៀងនេះនៅលើគេហទំព័រ។ នៅពេលយើងធ្វើយើងនឹងកែប្រែកាលបរិច្ឆេទដែលបានធ្វើបច្ចុប្បន្នភាពនៅផ្នែកខាងក្រោមនៃទំព័រនេះ។ ការបន្តប្រើប្រាស់វេបសាយបន្ទាប់ពីមានការផ្លាស់ប្តូរបែបនេះនឹងបង្កើតការយល់ព្រមរបស់អ្នកចំពោះការផ្លាស់ប្តូរនោះ.</p>
+		
+		<h2>ការទទួលយកលក្ខខណ្ឌទាំងនេះ</h2>
+		
+		<p>អ្នកទទួលស្គាល់ថាអ្នកបានអានកិច្ចព្រមព្រៀងនេះហើយយល់ព្រមនឹងល័ក្ខខ័ណ្ឌទាំងអស់។ តាមរយៈការប្រើប្រាស់គេហទំព័រឬសេវាកម្មគេហទំព័រអ្នកយល់ព្រមនឹងកិច្ចព្រមព្រៀងនេះ។ ប្រសិនបើអ្នកមិនយល់ព្រមគោរពតាមលក្ខខណ្ឌនៃកិច្ចព្រមព្រៀងនេះអ្នកមិនត្រូវបានអនុញ្ញាតឱ្យប្រើប្រាស់ឬចូលប្រើគេហទំព័រនិងសេវាកម្មរបស់វាឡើយ.</p>
+		
+		<h2>ទាក់ទងយើង</h2>
+		
+		<p>ប្រសិនបើអ្នកមានសំណួរអំពីគោលការណ៍នេះសូមទាក់ទងមកយើងខ្ញុំ.</p>
+		<p>អាចទាក់ទងបានតាមរយះលេខទូរស័ព្ទ 089687225 | FACEBOOK : BoriN</p>
+		
+		<p>ឯកសារនេះត្រូវបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយនៅថ្ងៃទី ២៧ ខែឧសភាឆ្នាំ ២០២០</p>
+	</div>
+	<div id="privacy-policy" class="pp-popup-wrapper popup-wrapper mfp-hide">
+		<h1>លក្ខខណ្ឌ​នៃ​សេវាកម្ម</h1>
+		
+		<p>ល័ក្ខខ័ណ្ឌនៃសេវាកម្មទាំងនេះ (“ ល័ក្ខខ័ណ្ឌ”“ កិច្ចព្រមព្រៀង”) គឺជាកិច្ចព្រមព្រៀងរវាងប្រតិបត្តិករគេហទំព័រ MyWebsite (“ ប្រតិបត្តិករគេហទំព័រ”“ យើង”“ យើង” ឬ“ របស់យើង”) និងអ្នក (“ អ្នកប្រើប្រាស់”“ អ្នក” ឬ "របស់អ្នក") ។ កិច្ចព្រមព្រៀងនេះចែងអំពីល័ក្ខខ័ណ្ឌទូទៅនៃការប្រើប្រាស់គេហទំព័រ http://www.mywebsite.com និងផលិតផលឬសេវាកម្មណាមួយរបស់ខ្លួន (ជារួម“ គេហទំព័រ” ឬ“ សេវាកម្ម”).</p>
+		
+		<h2>តម្រូវការអាយុ</h2>
+		
+		<p>អ្នកត្រូវមានអាយុយ៉ាងតិច ១៨ ឆ្នាំដើម្បីប្រើប្រាស់គេហទំព័រនេះ។ តាមរយៈការប្រើប្រាស់គេហទំព័រនេះនិងយល់ព្រមលើកិច្ចព្រមព្រៀងនេះអ្នកធានានិងបង្ហាញថាអ្នកមានអាយុយ៉ាងតិច ១៨ ឆ្នាំ.</p>
+		
+		<h2>ការបម្រុងទុក</h2>
+		
+		<p>យើងមិនទទួលខុសត្រូវចំពោះខ្លឹមសារដែលមាននៅលើគេហទំព័រទេ។ ក្នុងករណីណាក៏ដោយយើងមិនទទួលខុសត្រូវចំពោះការបាត់បង់ខ្លឹមសារណាមួយឡើយ។ វាជាទំនួលខុសត្រូវតែមួយគត់របស់អ្នកក្នុងការរក្សាការបម្រុងទុកសមស្របនៃមាតិការបស់អ្នក។ ទោះបីជាមានចំណុចដូចខាងលើនេះក្នុងកាលៈទេសៈនិងកាលៈទេសៈខ្លះក៏ដោយដោយគ្មានកាតព្វកិច្ចយើងអាចស្តារទិន្នន័យខ្លះឬទាំងអស់របស់អ្នកដែលត្រូវបានលុបចោលតាមកាលបរិច្ឆេទនិងពេលវេលាជាក់លាក់មួយនៅពេលដែលយើងអាចបម្រុងទុកទិន្នន័យសម្រាប់របស់យើងផ្ទាល់។ គោលបំណង។ យើងមិនមានការធានាថាទិន្នន័យដែលអ្នកត្រូវការនឹងអាចមាននោះទេ។ </p>.</p>
+		
+		<h2>បណ្តាញភ្ជាប់ទៅគេហទំព័រផ្សេងទៀត</h2>
+		
+		<p>ទោះបីគេហទំព័រនេះអាចភ្ជាប់ទៅគេហទំព័រផ្សេងទៀតក៏ដោយយើងមិនទាក់ទងដោយផ្ទាល់ឬដោយប្រយោលដោយមិនបញ្ជាក់ពីការយល់ព្រមសមាគមការឧបត្ថម្ភការយល់ព្រមការចូលរួមឬការភ្ជាប់ទំនាក់ទំនងជាមួយគេហទំព័រណាមួយឡើយលើកលែងតែមានការបញ្ជាក់ជាក់លាក់នៅទីនេះ។ យើងមិនទទួលខុសត្រូវចំពោះការពិនិត្យឬវាយតម្លៃហើយយើងមិនធានាចំពោះការផ្តល់ជូនអាជីវកម្មឬបុគ្គលណាមួយឬខ្លឹមសារនៃគេហទំព័ររបស់ពួកគេឡើយ។ យើងមិនទទួលខុសត្រូវរាល់ការទទួលខុសត្រូវចំពោះសកម្មភាពផលិតផលសេវាកម្មនិងខ្លឹមសាររបស់ភាគីទីបីណាមួយឡើយ។ អ្នកគួរតែពិនិត្យឡើងវិញនូវសេចក្តីថ្លែងការណ៍ច្បាប់និងល័ក្ខខ័ណ្ឌផ្សេងៗក្នុងការប្រើប្រាស់គេហទំព័រណាដែលអ្នកចូលមើលតាមរយៈគេហទំព័រនេះ។ ការភ្ជាប់របស់អ្នកទៅទំព័រក្រៅគេហទំព័រឬគេហទំព័រផ្សេងទៀតគឺជាហានិភ័យរបស់អ្នក.</p>
+		
+		<h2>ការផ្សាយពាណិជ្ជកម្ម</h2>
+		
+		<p>ក្នុងអំឡុងពេលនៃការប្រើប្រាស់គេហទំព័រអ្នកអាចចូលឆ្លើយឆ្លងជាមួយឬចូលរួមក្នុងការផ្សព្វផ្សាយរបស់អ្នកផ្សាយពាណិជ្ជកម្មឬអ្នកឧបត្ថម្ភដែលបង្ហាញទំនិញឬសេវាកម្មរបស់ពួកគេតាមរយៈគេហទំព័រ។ រាល់សកម្មភាពបែបនេះនិងល័ក្ខខ័ណ្ឌលក្ខខណ្ឌការធានាឬការតំណាងនានាដែលពាក់ព័ន្ធនឹងសកម្មភាពបែបនេះគឺមានតែរវាងអ្នកនិងភាគីទីបីដែលអាចអនុវត្តបាន។ យើងមិនមានទំនួលខុសត្រូវកាតព្វកិច្ចឬការទទួលខុសត្រូវចំពោះការឆ្លើយឆ្លងការទិញឬការផ្សព្វផ្សាយរវាងអ្នកនិងភាគីទីបីណាមួយឡើយ.</p>
+		
+		<h2>ការប្រើប្រាស់ហាមឃាត់</h2>
+		
+		<p>បន្ថែមលើល័ក្ខខ័ណ្ឌផ្សេងទៀតដែលមានចែងនៅក្នុងកិច្ចព្រមព្រៀងអ្នកត្រូវបានហាមឃាត់មិនឱ្យប្រើប្រាស់គេហទំព័រឬមាតិការបស់វា៖ (ក) សម្រាប់គោលបំណងខុសច្បាប់ណាមួយ។ (ខ) សុំឱ្យអ្នកដទៃធ្វើឬចូលរួមក្នុងសកម្មភាពខុសច្បាប់ណាមួយ។ (គ) រំលោភលើបទប្បញ្ញត្តិអន្តរជាតិសហព័ន្ធសហព័ន្ធខេត្តឬរដ្ឋបទប្បញ្ញត្តិច្បាប់ឬបទបញ្ជាក្នុងតំបន់។ (ឃ) រំលោភឬរំលោភលើកម្មសិទ្ធិបញ្ញារបស់យើងឬសិទ្ធិកម្មសិទ្ធិបញ្ញារបស់អ្នកដទៃ។ (ង) បៀតបៀនការរំលោភបំពានការជេរប្រមាថការបង្កាច់បង្ខូចការបង្កាច់បង្ខូចការជេរប្រមាថការបំភិតបំភ័យឬការរើសអើងផ្អែកលើភេទនិន្នាការភេទសាសនាជនជាតិភាគតិចពូជសាសន៍សញ្ជាតិដើមឬពិការភាព។ (ច) ដើម្បីបញ្ជូនព័ត៌មានមិនពិតឬបំភាន់។ (ឆ) ផ្ទុកឡើងឬបញ្ជូនមេរោគឬប្រភេទកូដព្យាបាទផ្សេងទៀតដែលនឹងឬអាចត្រូវបានប្រើតាមមធ្យោបាយណាមួយដែលនឹងជះឥទ្ធិពលដល់មុខងារឬប្រតិបត្តិការរបស់សេវាកម្មឬគេហទំព័រដែលពាក់ព័ន្ធគេហទំព័រផ្សេងទៀតឬអ៊ីនធឺណិត។ (ជ) ដើម្បីប្រមូលឬតាមដានព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកដទៃ។ (i) ចំពោះសារឥតបានការភីស្ហឹនថ្នាំភូតកុហកសត្វពីងពាងលូនឬកោស។ (ច) សម្រាប់គោលបំណងអាសអាភាសឬអសីលធម៌ ឬ (គ) ដើម្បីជ្រៀតជ្រែកឬចៀសវៀងពីលក្ខណៈពិសេសសុវត្ថិភាពរបស់សេវាកម្មឬគេហទំព័រដែលពាក់ព័ន្ធគេហទំព័រផ្សេងទៀតឬអ៊ីនធឺណិត។ យើងរក្សាសិទ្ធិក្នុងការបញ្ឈប់ការប្រើប្រាស់សេវាកម្មរបស់អ្នកឬគេហទំព័រដែលពាក់ព័ន្ធសម្រាប់ការរំលោភការប្រើប្រាស់ណាមួយដែលត្រូវហាមឃាត់.</p>
+		
+		<h2>ដែន​កំណត់​នៃ​ការទទួលខុសត្រូវ</h2>
+		
+		<p>ក្នុងកំរិតពេញលេញដែលត្រូវបានអនុញ្ញាតិដោយច្បាប់ដែលអាចអនុវត្តបានក្នុងករណីដែលមិនមានប្រតិបត្តិករវេបសាយសាខាភ្នាក់ងារមន្រ្តីនាយកនិយោជិកភ្នាក់ងារអ្នកផ្គត់ផ្គង់ឬអ្នកផ្តល់អាជ្ញាប័ណ្ណត្រូវទទួលខុសត្រូវចំពោះបុគ្គលណាម្នាក់សម្រាប់ (ក)៖ ដោយប្រយោលណាមួយដោយចៃដន្យពិសេសការដាក់ទោស ឬការខូចខាតដែលមានផលប៉ះពាល់ (រាប់បញ្ចូលទាំងការមិនកំណត់កំណត់ការខូចខាតសម្រាប់ប្រាក់ចំណេញដែលបានបាត់បង់ប្រាក់ចំណូលការលក់សុឆន្ទៈការប្រើប្រាស់ឬមាតិកាផលប៉ះពាល់លើអាជីវកម្មការរំខានអាជីវកម្មការបាត់បង់ប្រាក់សន្សំដែលបានរំពឹងទុកការបាត់បង់ឱកាសអាជីវកម្ម) ទោះយ៉ាងណាក៏ដោយបណ្តាលមកពីទ្រឹស្តីនៃការទទួលខុសត្រូវ។ រាប់បញ្ចូលទាំងការមិនធ្វើកិច្ចសន្យាកិច្ចសន្យាការធ្វើទារុណកម្មការធានាការរំលោភលើកាតព្វកិច្ចតាមច្បាប់ការធ្វេសប្រហែសឬបើមិនដូច្នេះទេទោះបីជាប្រតិបត្តិករគេហទំព័រត្រូវបានណែនាំអំពីលទ្ធភាពនៃការខូចខាតឬអាចមានការខូចខាតជាមុនក៏ដោយ។ ក្នុងកំរិតអតិបរមាដែលត្រូវបានអនុញ្ញាតដោយច្បាប់ដែលអាចអនុវត្តបានការទទួលខុសត្រូវរួមរបស់ប្រតិបត្តិករគេហទំព័រនិងសាខារបស់ខ្លួនភ្នាក់ងារនិយោជិកភ្នាក់ងារអ្នកផ្គត់ផ្គង់និងអ្នកមានអាជ្ញាប័ណ្ណពាក់ព័ន្ធនឹងសេវាកម្មនឹងត្រូវបានកំណត់ក្នុងចំនួនទឹកប្រាក់លើសពីមួយដុល្លារឬចំនួនទឹកប្រាក់ដែលបានបង់ជាសាច់ប្រាក់សុទ្ធ។ ដោយអ្នកទៅកាន់ប្រតិបត្តិករគេហទំព័រក្នុងរយៈពេលមួយខែមុនព្រឹត្តិការណ៍ដំបូងឬការកើតឡើងដែលផ្តល់នូវការទទួលខុសត្រូវបែបនេះ។ ដែនកំណត់និងការលើកលែងក៏អនុវត្តផងដែរប្រសិនបើសំណងនេះមិនផ្តល់សំណងដល់អ្នកទាំងស្រុងចំពោះការបាត់បង់ឬបរាជ័យនៃគោលបំណងសំខាន់របស់វា.</p>
+		
+		<h2>ការមិនសងប្រាក់</h2>
+		
+		<p>អ្នកយល់ព្រមសងជំងឺចិត្តនិងកាន់ប្រតិបត្តិករគេហទំព័រនិងសាខារបស់ខ្លួននាយកនាយទាហានបុគ្គលិកនិងភ្នាក់ងារដែលគ្មានគ្រោះថ្នាក់ពីការខាតបង់ការខូចខាតឬថ្លៃដើមរួមទាំងថ្លៃមេធាវីសមរម្យដែលកើតឡើងទាក់ទងនឹងឬកើតឡើងពីភាគីទីបី។ ការចោទប្រកាន់ការអះអាងសកម្មភាពជម្លោះឬការទាមទារដែលបានអះអាងប្រឆាំងនឹងបញ្ហាណាមួយដែលបណ្តាលមកពីឬទាក់ទងនឹងខ្លឹមសារការប្រើប្រាស់វេបសាយឬសេវាកម្មរបស់អ្នកឬការប្រព្រឹត្តិមិនត្រឹមត្រូវណាមួយនៅលើផ្នែករបស់អ្នក។.</p>
+		
+		<h2>ភាពធ្ងន់ធ្ងរ</h2>
+		
+		<p>សិទ្ធិនិងការរឹតត្បិតទាំងអស់ដែលមាននៅក្នុងកិច្ចព្រមព្រៀងនេះអាចត្រូវបានអនុវត្តនិងអាចអនុវត្តបាននិងអនុវត្តបានតែក្នុងវិសាលភាពដែលពួកគេមិនបានរំលោភច្បាប់ដែលមានហើយត្រូវបានកំណត់ឱ្យមានកម្រិតដែលចាំបាច់ដូច្នេះពួកគេនឹងមិនបង្ហាញកិច្ចព្រមព្រៀងនេះខុសច្បាប់និងគ្មានសុពលភាព។ ឬមិនអាចប្រតិបត្តិបាន។ ប្រសិនបើបទប្បញ្ញត្តិឬផ្នែកណាមួយនៃបទប្បញ្ញត្តិនៃកិច្ចព្រមព្រៀងនេះត្រូវបានចាត់ទុកថាខុសច្បាប់មិនមានសុពលភាពឬមិនអាចអនុវត្តបានដោយតុលាការនៃយុត្តាធិការមានសមត្ថកិច្ចវាជាចេតនារបស់ភាគីដែលបទប្បញ្ញត្តិឬផ្នែកដែលនៅសល់ត្រូវបង្កើតជាកិច្ចព្រមព្រៀងរបស់ពួកគេទាក់ទងនឹង ខ្លឹមសារនៃប្រធានបទនេះនិងបទប្បញ្ញត្តិឬផ្នែកដែលនៅសល់ទាំងអស់នោះនឹងនៅតែមានប្រសិទ្ធិភាពពេញលេញ.</p>
+		
+		<h2>ដំណោះស្រាយវិវាទ</h2>
+		
+		<p>ការបង្កើតការបកស្រាយនិងការអនុវត្តនៃកិច្ចព្រមព្រៀងនេះនិងជម្លោះណាមួយដែលកើតចេញពីកិច្ចព្រមព្រៀងនេះនឹងត្រូវគ្រប់គ្រងដោយច្បាប់ដែលមានសារៈសំខាន់និងនីតិវិធីនៃប៊ែនប្រទេសស្វីសដោយមិនគិតពីច្បាប់ស្តីពីជម្លោះឬជម្រើសនៃច្បាប់ហើយបើអាចអនុវត្តបានច្បាប់នៃ ប្រទេស​ស្វីស។ យុត្តាធិការផ្តាច់មុខនិងទីកន្លែងសម្រាប់សកម្មភាពទាក់ទងនឹងប្រធានបទនេះគឺតុលាការរដ្ឋនិងសហព័ន្ធដែលមានទីតាំងនៅទីក្រុងប៊ែនប្រទេសស្វីសហើយអ្នកត្រូវបញ្ជូនទៅយុត្តាធិការផ្ទាល់ខ្លួនរបស់តុលាការបែបនេះ។ អ្នកអាចលះបង់សិទ្ធិក្នុងការជំនុំជម្រះក្តីលើរឿងក្តីណាមួយដែលកើតឡើងឬពាក់ព័ន្ធនឹងកិច្ចព្រមព្រៀងនេះ។ អនុសញ្ញារបស់អង្គការសហប្រជាជាតិស្តីពីកិច្ចសន្យាសម្រាប់ការលក់ទំនិញអន្តរជាតិមិនអនុវត្តចំពោះកិច្ចព្រមព្រៀងនេះទេ.</p>
+		
+		<h2>ការផ្លាស់ប្តូរនិងការកែប្រែ</h2>
+		
+		<p>យើងរក្សាសិទ្ធិក្នុងការកែប្រែកិច្ចព្រមព្រៀងនេះឬគោលនយោបាយរបស់វាទាក់ទងទៅនឹងគេហទំព័រឬសេវាកម្មនៅពេលណាមួយដែលមានប្រសិទ្ធភាពនៅពេលប្រកាសសេចក្តីព្រាងនៃកិច្ចព្រមព្រៀងនេះនៅលើគេហទំព័រ។ នៅពេលយើងធ្វើយើងនឹងកែប្រែកាលបរិច្ឆេទដែលបានធ្វើបច្ចុប្បន្នភាពនៅផ្នែកខាងក្រោមនៃទំព័រនេះ។ ការបន្តប្រើប្រាស់វេបសាយបន្ទាប់ពីមានការផ្លាស់ប្តូរបែបនេះនឹងបង្កើតការយល់ព្រមរបស់អ្នកចំពោះការផ្លាស់ប្តូរនោះ.</p>
+		
+		<h2>ការទទួលយកលក្ខខណ្ឌទាំងនេះ</h2>
+		
+		<p>អ្នកទទួលស្គាល់ថាអ្នកបានអានកិច្ចព្រមព្រៀងនេះហើយយល់ព្រមនឹងល័ក្ខខ័ណ្ឌទាំងអស់។ តាមរយៈការប្រើប្រាស់គេហទំព័រឬសេវាកម្មគេហទំព័រអ្នកយល់ព្រមនឹងកិច្ចព្រមព្រៀងនេះ។ ប្រសិនបើអ្នកមិនយល់ព្រមគោរពតាមលក្ខខណ្ឌនៃកិច្ចព្រមព្រៀងនេះអ្នកមិនត្រូវបានអនុញ្ញាតឱ្យប្រើប្រាស់ឬចូលប្រើគេហទំព័រនិងសេវាកម្មរបស់វាឡើយ.</p>
+		
+		<h2>ទាក់ទងយើង</h2>
+		
+		<p>ប្រសិនបើអ្នកមានសំណួរអំពីគោលការណ៍នេះសូមទាក់ទងមកយើងខ្ញុំ.</p>
+		<p>អាចទាក់ទងបានតាមរយះលេខទូរស័ព្ទ 089687225 | FACEBOOK : BoriN</p>
+		
+		<p>ឯកសារនេះត្រូវបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយនៅថ្ងៃទី ២៧ ខែឧសភាឆ្នាំ ២០២០</p>
+	</div>
+	<div id="contact-us" class="contact-popup-wrapper popup-wrapper mfp-hide">
+		<h1>Send us a message</h1>
+		<div class="contact-form-wrapper">
+			<form role="form" id="contactForm" data-toggle="validator" class="shake">
+				<div class="row">
+					<div class="form-group col-sm-6">
+						<label for="name" class="h4">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="Please enter your name.">
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group col-sm-6">
+						<label for="email" class="h4">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter email" required data-error="Please enter your email.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message" class="h4 ">Message</label>
+					<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required data-error="Please enter your message."></textarea>
+					<div class="help-block with-errors"></div>
+				</div>
+				<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+				<div id="msgSubmit" class="h3 text-center hidden"></div>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+	</div>
+	<!-- JavaScript/jQuery -->
+    <!--script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script-->	
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script src="ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>	
+    <script type="text/javascript" src="js/fancySelect.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+	<script type="text/javascript" src="js/form-scripts.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/sticky.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
